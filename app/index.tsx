@@ -13,6 +13,7 @@ export default function Index() {
       }}
     >
       <Button title="Tela de Login" onPress={() => router.push('/login')} />
+      <Button title="Tela de Investimentos" onPress={() => router.push('/meus_investimentos')} />
     </View>
   );
 }
